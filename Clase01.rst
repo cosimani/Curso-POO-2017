@@ -18,6 +18,10 @@ Clase 01 - POO 2017
 	        - API de Facebook
 	        - API de MercadoLibre
 	        - API de Spotify			
+	        - Qt en Android			
+	        - Qt Google Maps			
+	        - OpenCV			
+	        - OpenGL			
     :Opcionales: 
 	    - Trabajo integrador (no rinde parciales)
 	    - Cumplir 8 o más horas semanales en investigación (no rinde parciales)
