@@ -11,7 +11,7 @@ Clase 01 - POO 2017
     :Regularidad: 
 	    - 2 parciales 
 	    - Varios parcialitos (3er nota)
-	    - Cumplir requisitos
+	    - Cumplir los siguientes requisitos
     :Requisitos: 
 	    - Nivel 5 o más en SoloLearn (para C++)
 	    - Estudio exploratorio sobre algún tema:
