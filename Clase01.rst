@@ -14,6 +14,7 @@ Clase 01 - POO 2017
 	    - Cumplir los siguientes requisitos
     :Requisitos: 
 	    - Nivel 5 o más en SoloLearn (para C++)
+	    - Ver videos tutoriales y responder preguntas
 	    - Estudio exploratorio sobre algún tema:
 	        - API de Facebook
 	        - API de MercadoLibre
