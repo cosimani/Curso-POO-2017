@@ -23,7 +23,7 @@ Clase 01 - POO 2017
 	        - OpenCV			
 	        - OpenGL			
     :Opcionales: 
-	    - Trabajo integrador (no rinde parciales)
+	    - Trabajo integrador individual o dos alumnos (no rinden parciales)
 	    - Cumplir 8 o más horas semanales en investigación (no rinde parciales)
     :Temas principales: 
 		- Espacio de nombres
