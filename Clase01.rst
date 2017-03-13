@@ -2,19 +2,24 @@
 
 .. _rcs_subversion:
 
-Clase 01 - POO 2016
+Clase 01 - POO 2017
 ===================
 
     :Autor: César Osimani
     :Correos: cesarosimani@gmail.com
-    :Fecha: 15 de marzo de 2016
+    :Fecha: 13 de marzo de 2017
     :Regularidad: 
     	- 2 parciales 
-	- 1 TPU como tercer parcial
-	- Presentación de trabajos en CoNaIISI 2016
-		- http://www.ucasal.edu.ar/conaiisi2016/ – Hasta 16 de septiembre
-			- Se presentan avances en lugar de cada parcial y TPU
-	    	- Pueden proponer otro congreso
+		- Varios parcialitos (3er nota)
+		- Cumplir requisitos
+    :Requisitos: 
+    	- Nivel 5 o más en SoloLearn (para C++)
+		- Estudio exploratorio sobre algún tema:
+		    - API de Facebook
+		    - API de MercadoLibre
+		    - API de Spotify			
+    :Opcionales: 
+    	- Nivel 5 o más en SoloLearn (para C++)
     :Temas principales: 
 		- Espacio de nombres
 		- inline y const

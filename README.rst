@@ -22,6 +22,7 @@ Parte de este material ha sido inspirado y/o adaptado de múltiples fuentes:
 * `Videos tutoriales de C <https://www.youtube.com/playlist?list=PL54fdmMKYUJszGt6xq6QGSoaTzAVO-8jX>`_
 * `Videos tutoriales de C++ <https://www.youtube.com/playlist?list=PL54fdmMKYUJvS32aLptKVC0AH9bwsavzi>`_
 * `Videos tutoriales de Qt <https://www.youtube.com/playlist?list=PL54fdmMKYUJvn4dAvziRopztp47tBRNum>`_
+* `App SoloLearn <https://play.google.com/store/apps/details?id=com.sololearn&hl=es_419>`_
 
 
 
