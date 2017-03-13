@@ -5,9 +5,7 @@
 
 .. html ::
 
-  <embed>
-  ... more html here ...
-  </embed>
+	ore html here
   
 Clase 02 - POO 2016
 ===================
