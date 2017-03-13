@@ -2,7 +2,7 @@
 
 .. _rcs_subversion:
 
-Clase 20 - POO 2016
+Clase 20 - POO 2016 (No preparada aún)
 ===================
 
 Rotación de la escena

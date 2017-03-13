@@ -2,7 +2,7 @@
 
 .. _rcs_subversion:
 
-Clase 06 - POO 2016
+Clase 06 - POO 2016 (No preparada aún)
 ===================
 
 Sutilezas con punteros

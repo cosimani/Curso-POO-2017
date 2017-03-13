@@ -2,7 +2,7 @@
 
 .. _rcs_subversion:
 
-Clase 03 - POO 2016
+Clase 03 - POO 2016 (No preparada aún)
 ===================
 
 Punteros

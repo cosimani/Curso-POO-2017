@@ -2,7 +2,7 @@
 
 .. _rcs_subversion:
 
-Clase 18 - POO 2016
+Clase 18 - POO 2016 (No preparada aún)
 ===================
 
 Clase QFile

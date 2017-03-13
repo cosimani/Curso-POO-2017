@@ -2,7 +2,7 @@
 
 .. _rcs_subversion:
 
-Clase 08 - POO 2016
+Clase 08 - POO 2016 (No preparada aún)
 ===================
 
 Clase QNetworkAccessManager

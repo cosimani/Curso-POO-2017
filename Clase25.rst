@@ -2,7 +2,7 @@
 
 .. _rcs_subversion:
 
-Clase 25 - POO 2016
+Clase 25 - POO 2016 (No preparada aún)
 ===================
 
 Declaraciones friend

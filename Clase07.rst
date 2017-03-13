@@ -2,7 +2,7 @@
 
 .. _rcs_subversion:
 
-Clase 07 - POO 2016
+Clase 07 - POO 2016 (No preparada aún)
 ===================
 
 **Dato de color**

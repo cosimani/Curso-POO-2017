@@ -2,7 +2,7 @@
 
 .. _rcs_subversion:
 
-Clase 22 - POO 2016
+Clase 22 - POO 2016 (No preparada aún)
 ===================
 
 **Posicionando la cámara**

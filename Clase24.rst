@@ -2,7 +2,7 @@
 
 .. _rcs_subversion:
 
-Clase 24 - POO 2016
+Clase 24 - POO 2016 (No preparada aún)
 ===================
 
 Funciones inline

@@ -2,7 +2,7 @@
 
 .. _rcs_subversion:
 
-Clase 12 - POO 2016
+Clase 12 - POO 2016 (No preparada aún)
 ===================
 
 **Algunos argentinos que también explican como los mexicanos** 

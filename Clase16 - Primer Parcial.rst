@@ -2,7 +2,7 @@
 
 .. _rcs_subversion:
 
-Clase 16 - Primer Parcial
+Clase 16 - Primer Parcial (No preparada aún)
 =========================
 
 .. figure:: images/clase16/imagenes-para-reirse-en-los-examenes.jpg

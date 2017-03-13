@@ -2,7 +2,7 @@
 
 .. _rcs_subversion:
 
-Clase 21 - POO 2016
+Clase 21 - POO 2016 (No preparada aún)
 ===================
 
 Modelo de sombreado

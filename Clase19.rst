@@ -2,7 +2,7 @@
 
 .. _rcs_subversion:
 
-Clase 19 - POO 2016
+Clase 19 - POO 2016 (No preparada aún)
 ===================
 
 Herencia múltiple

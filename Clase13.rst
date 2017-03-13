@@ -2,7 +2,7 @@
 
 .. _rcs_subversion:
 
-Clase 13 - POO 2016
+Clase 13 - POO 2016 (No preparada aún)
 ===================
 
 Función virtual pura y clase abstracta

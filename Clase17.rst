@@ -2,7 +2,7 @@
 
 .. _rcs_subversion:
 
-Clase 17 - POO 2016
+Clase 17 - POO 2016 (No preparada aún)
 ===================
 
 Señales propias

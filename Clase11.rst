@@ -2,7 +2,7 @@
 
 .. _rcs_subversion:
 
-Clase 11 - POO 2016
+Clase 11 - POO 2016 (No preparada aún)
 ===================
 
 Conexión a base de datos

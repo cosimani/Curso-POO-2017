@@ -2,7 +2,7 @@
 
 .. _rcs_subversion:
 
-Clase 14 - POO 2016
+Clase 14 - POO 2016 (No preparada aún)
 ===================
 
 Creando Instalador

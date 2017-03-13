@@ -2,7 +2,7 @@
 
 .. _rcs_subversion:
 
-Clase 23 - Segundo Parcial
+Clase 23 - Segundo Parcial (No preparada aún)
 ==========================
 
 - `Ruta vacía <https://github.com/cosimani/Curso-POO-2016/blob/master/sources/clase23/Ruta.rar?raw=true>`_

@@ -2,7 +2,7 @@
 
 .. _rcs_subversion:
 
-Clase 09 - POO 2016
+Clase 09 - POO 2016 (No preparada aún)
 ===================
 
 .. figure:: images/clase09/java_vs_cplusplus.gif
