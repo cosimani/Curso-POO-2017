@@ -1,13 +1,8 @@
 .. -*- coding: utf-8 -*-
 
 .. _rcs_subversion:
-
-
-.. html ::
-
-	ore html here
   
-Clase 02 - POO 2016
+Clase 02 - POO 2016 (No preparada aún)
 ===================
 
 Utilidades de la biblioteca estándar de C++
