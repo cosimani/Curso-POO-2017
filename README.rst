@@ -19,6 +19,9 @@ Parte de este material ha sido inspirado y/o adaptado de múltiples fuentes:
 * `Tutoriales y ejemplos con la biblioteca Qt <http://doc.qt.io/qt-5/qtexamplesandtutorials.html>`_
 * `Foro de Qt en Español  <https://forum.qt.io/category/31/spanish>`_
 * `Libro: El lenguaje de programación C++ de Bjarne Stroustrup (disponible en biblioteca de UBP) <http://www.amazon.es/El-lenguaje-programaci%C3%B3n-Bjarne-Stroustrup/dp/847829046X>`_
+* `Videos tutoriales de C <https://www.youtube.com/playlist?list=PL54fdmMKYUJszGt6xq6QGSoaTzAVO-8jX>`_
+* `Videos tutoriales de C++ <https://www.youtube.com/playlist?list=PL54fdmMKYUJvS32aLptKVC0AH9bwsavzi>`_
+* `Videos tutoriales de Qt <https://www.youtube.com/playlist?list=PL54fdmMKYUJvn4dAvziRopztp47tBRNum>`_
 
 
 
