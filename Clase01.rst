@@ -9,9 +9,9 @@ Clase 01 - POO 2017
     :Correos: cesarosimani@gmail.com
     :Fecha: 13 de marzo de 2017
     :Regularidad: 
-    	- 2 parciales 
-		- Varios parcialitos (3er nota)
-		- Cumplir requisitos
+	    - 2 parciales 
+	    - Varios parcialitos (3er nota)
+	    - Cumplir requisitos
     :Requisitos: 
     	- Nivel 5 o más en SoloLearn (para C++)
 		- Estudio exploratorio sobre algún tema:
