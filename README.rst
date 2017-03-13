@@ -6,7 +6,7 @@ Destinado a los estudiantes de la carrera Ing. Informática de la Universidad Bl
 
 :Profesor: Ing. César Osimani
 :Asignatura: Programación Orientada a Objetos
-:Fecha: Marzo a junio de 2016
+:Fecha: Marzo a junio de 2017
 
 
 Créditos
