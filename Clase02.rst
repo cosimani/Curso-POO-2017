@@ -5,9 +5,6 @@
 Clase 02 - POO 2017
 ===================
 
-Utilidades de la biblioteca estándar de C++
-===========================================
-
 Biblioteca estándar de C++
 ==========================
 
@@ -225,6 +222,9 @@ Función Genérica
 **Ejercicio 1**
 
 - Escribir en C++ una función genérica para ordenar e imprimir un array (sólo tipos int, float y char). Que la publicación sea ordenada utilizando el método de ordenamiento por inserción.
+
+Utilidades de la biblioteca estándar de C++
+===========================================
 
 vector
 ^^^^^^
