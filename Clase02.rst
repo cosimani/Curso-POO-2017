@@ -5,6 +5,11 @@
 Clase 02 - POO 2017
 ===================
 
+Tarea para clase 3
+^^^^^^^^^^^^^^^^^^
+
+Ver `video 1 <https://www.youtube.com/watch?v=4TEED3VFBfc>`_ de `Videos tutoriales de Qt <https://www.youtube.com/playlist?list=PL54fdmMKYUJvn4dAvziRopztp47tBRNum>`_
+
 Biblioteca estándar de C++
 ==========================
 
