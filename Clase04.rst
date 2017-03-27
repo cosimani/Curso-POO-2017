@@ -232,9 +232,8 @@ Clases
 	
 
 .. ..
-
+ 
  <!---  
-
  **Función con número indefinido de parámetros**
 
  - Requiere:
@@ -314,7 +313,6 @@ Clases
  
  	    return 0;
  	}
- 
  --->
  
  
