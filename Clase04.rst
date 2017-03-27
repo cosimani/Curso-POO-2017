@@ -233,7 +233,7 @@ Clases
 
 .. ..
 
- <!---  
+<!---  
 
 **Función con número indefinido de parámetros**
 
@@ -313,7 +313,7 @@ Clases
      return 0;
  }
 
- --->
+--->
  
  
 
