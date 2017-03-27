@@ -287,31 +287,33 @@ Clases
 
 - Se puede pasar cualquier tipo siempre que sea con punteros:
  
- #include <QApplication>
- #include <QString>
- #include <QDebug>
- #include <cstdarg>
-
- void imprimirParametros(int cantidad, ...)  {
-     va_list argumentos; // esta linea declara la lista de parametros
-     va_start(argumentos, cantidad);
-
-     for (int i=0 ; i<cantidad ; i++)  {
-         QString *str = va_arg( argumentos, QString* );
-         qDebug() << *str;
-     } 
-
-     va_end(argumentos);  // Para limpiar la pila de parametros
- }
+.. code-block:: c
  
- int main(int argc, char** argv)  {
-     QApplication app(argc, argv);
- 
-     imprimirParametros(3, new QString("uno"), new QString("dos"), new QString("tres"),
-                        new QString("cuatro"), new QString("cinco"));
+	#include <QApplication>
+	#include <QString>
+	#include <QDebug>
+	#include <cstdarg>
 
-     return 0;
- }
+	void imprimirParametros(int cantidad, ...)  {
+	    va_list argumentos; // esta linea declara la lista de parametros
+	    va_start(argumentos, cantidad);
+
+	    for (int i=0 ; i<cantidad ; i++)  {
+	        QString *str = va_arg( argumentos, QString* );
+	        qDebug() << *str;
+	    } 
+
+	    va_end(argumentos);  // Para limpiar la pila de parametros
+	}
+
+	int main(int argc, char** argv)  {
+	    QApplication app(argc, argv);
+
+	    imprimirParametros(3, new QString("uno"), new QString("dos"), new QString("tres"),
+	                       new QString("cuatro"), new QString("cinco"));
+
+	    return 0;
+	}
 
 --->
  
