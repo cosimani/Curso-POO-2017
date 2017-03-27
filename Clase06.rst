@@ -5,6 +5,84 @@
 Clase 06 - POO 2016 (No preparada aún)
 ===================
 
+**Resolución del primer ejercicio de la clase anterior**
+
+.. code-block:: c
+
+	// main.cpp
+	#include <QApplication>
+	#include "login.h"
+
+	int main(int argc, char** argv)  {
+	    QApplication a(argc, argv);
+
+	    Login login;
+	    login.show();
+
+	    return a.exec();
+	}
+
+	// login.h
+	#include <QWidget>
+	#include <QLabel>
+	#include <QLineEdit>
+	#include <QPushButton>
+	#include <QGridLayout>
+
+	class Login : public QWidget  {
+	Q_OBJECT
+
+	public:
+	    Login();
+
+	private:
+	    QLabel *lUsuario, *lClave;
+	    QLineEdit *leUsuario, *leClave;
+	    QPushButton *pbAceptar;
+	    QGridLayout *layout;
+
+	private slots:
+	    void slot_aceptar();
+	};
+
+	// login.cpp
+	#include "login.h"
+
+	Login::Login()  {
+	    lUsuario = new QLabel("Usuario");
+	    lClave = new QLabel("Clave");
+
+	    leUsuario = new QLineEdit;
+	    leClave = new QLineEdit;
+	    leClave->setEchoMode(QLineEdit::Password);
+
+	    pbAceptar = new QPushButton("Aceptar");
+
+	    layout = new QGridLayout;
+	    layout->addWidget(lUsuario, 0, 0);
+	    layout->addWidget(lClave, 1, 0);
+	    layout->addWidget(leUsuario, 0, 1, 1, 2);
+	    layout->addWidget(leClave, 1, 1, 1, 2);
+	    layout->addWidget(pbAceptar, 2, 2);
+
+	    this->setLayout(layout);
+
+	    connect(leClave, SIGNAL(returnPressed()), this, SLOT(slot_aceptar()));
+	    connect(pbAceptar, SIGNAL(clicked()), this, SLOT(slot_aceptar()));
+	}
+
+	void Login::slot_aceptar()  {
+
+	    if (leUsuario->text() == "admin" && leClave->text() == "1234")  {
+	        this->close();
+	    }
+	    else  {
+	        leUsuario->clear();
+	        leClave->clear();
+	    }
+	}
+
+	
 Sutilezas con punteros
 ^^^^^^^^^^^^^^^^^^^^^^
 
