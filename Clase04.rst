@@ -233,89 +233,89 @@ Clases
 
 .. ..
 
-<!---  
+ <!---  
 
-**Función con número indefinido de parámetros**
+ **Función con número indefinido de parámetros**
 
-- Requiere:
+ - Requiere:
 
-.. code-block:: c
+ .. code-block:: c
 
-	#include <cstdarg>
+ 	#include <cstdarg>
 
-- Imprime los enteros que se pasen como parámetro
-- Se puede comprender la sintaxis de:
+ - Imprime los enteros que se pasen como parámetro
+ - Se puede comprender la sintaxis de:
 
-.. code-block:: c
+ .. code-block:: c
 
-	int printf(const char* format, ...)
+ 	int printf(const char* format, ...)
 
-.. code-block:: c
+ .. code-block:: c
 
-	void imprimirParametros(int cantidad, ...)  {
+ 	void imprimirParametros(int cantidad, ...)  {
 
-	    // En cstdarg se define un tipo va_list y define tres macros (va_start, va_arg y va_end)
-	    // para moverse por la lista de argumentos cuyo numero y tipo no son conocidos.
-
-	    // Aqui se declara la lista de parametros
-	    va_list argumentos; 
-				
-	    // La macro va_start inicializa 'argumentos' para ser usado por va_arg y va_end.
-	    // 'cantidad' es el nombre del ultimo parametro antes de la lista de argumentos.
-	    va_start(argumentos, cantidad); 
-
-	    for (int i=0 ; i<cantidad ; i++)  {
-
-		    // La macro va_arg contiene el tipo y el valor del proximo argumento. 
-			// Cada llamada a va_arg devuelve el resto de los argumentos.
-
-	        int valor = va_arg( argumentos, int );  // Devuelve en formato de int
-
-	        cout << valor << endl;
-	    }
-
-	    // A cada invocacion de va_start le corresponde una invocacion de va_end
-	    // en la misma funcion. 	   
-	    va_end(argumentos);  // Para limpiar la pila de parametros
-	}
-	
-**Ejercicio:** 
-
-- Definir una función (que se llame mi_printf) que realice el mismo trabajo que la famosa printf. 
-- Investigar qué tipos de datos se pueden utilizar en va_arg
-
-
-- Se puede pasar cualquier tipo siempre que sea con punteros:
+ 	    // En cstdarg se define un tipo va_list y define tres macros (va_start, va_arg y va_end)
+ 	    // para moverse por la lista de argumentos cuyo numero y tipo no son conocidos.
  
-.. code-block:: c
+ 	    // Aqui se declara la lista de parametros
+ 	    va_list argumentos; 
+ 				
+ 	    // La macro va_start inicializa 'argumentos' para ser usado por va_arg y va_end.
+ 	    // 'cantidad' es el nombre del ultimo parametro antes de la lista de argumentos.
+ 	    va_start(argumentos, cantidad); 
  
-	#include <QApplication>
-	#include <QString>
-	#include <QDebug>
-	#include <cstdarg>
-
-	void imprimirParametros(int cantidad, ...)  {
-	    va_list argumentos; // esta linea declara la lista de parametros
-	    va_start(argumentos, cantidad);
-
-	    for (int i=0 ; i<cantidad ; i++)  {
-	        QString *str = va_arg( argumentos, QString* );
-	        qDebug() << *str;
-	    } 
-
-	    va_end(argumentos);  // Para limpiar la pila de parametros
-	}
-
-	int main(int argc, char** argv)  {
-	    QApplication app(argc, argv);
-
-	    imprimirParametros(3, new QString("uno"), new QString("dos"), new QString("tres"),
-	                       new QString("cuatro"), new QString("cinco"));
-
-	    return 0;
-	}
-
---->
+ 	    for (int i=0 ; i<cantidad ; i++)  {
+ 
+ 		    // La macro va_arg contiene el tipo y el valor del proximo argumento. 
+ 			// Cada llamada a va_arg devuelve el resto de los argumentos.
+ 
+ 	        int valor = va_arg( argumentos, int );  // Devuelve en formato de int
+ 
+ 	        cout << valor << endl;
+ 	    }
+ 
+ 	    // A cada invocacion de va_start le corresponde una invocacion de va_end
+ 	    // en la misma funcion. 	   
+ 	    va_end(argumentos);  // Para limpiar la pila de parametros
+ 	}
+ 	
+ **Ejercicio:** 
+ 
+ - Definir una función (que se llame mi_printf) que realice el mismo trabajo que la famosa printf. 
+ - Investigar qué tipos de datos se pueden utilizar en va_arg
+ 
+ 
+ **Se puede pasar cualquier tipo siempre que sea con punteros:**
+  
+ .. code-block:: c
+  
+ 	#include <QApplication>
+ 	#include <QString>
+ 	#include <QDebug>
+ 	#include <cstdarg>
+ 
+ 	void imprimirParametros(int cantidad, ...)  {
+ 	    va_list argumentos; // esta linea declara la lista de parametros
+ 	    va_start(argumentos, cantidad);
+ 
+ 	    for (int i=0 ; i<cantidad ; i++)  {
+ 	        QString *str = va_arg( argumentos, QString* );
+ 	        qDebug() << *str;
+ 	    } 
+ 
+ 	    va_end(argumentos);  // Para limpiar la pila de parametros
+ 	}
+ 
+ 	int main(int argc, char** argv)  {
+ 	    QApplication app(argc, argv);
+ 
+ 	    imprimirParametros(3, new QString("uno"), new QString("dos"), new QString("tres"),
+ 	                       new QString("cuatro"), new QString("cinco"));
+ 
+ 	    return 0;
+ 	}
+ 
+ --->
  
  
 
