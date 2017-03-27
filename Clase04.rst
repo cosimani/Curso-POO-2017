@@ -234,7 +234,9 @@ Clases
 .. ..
  
  <!---  
- **Función con número indefinido de parámetros**
+ **Función con número indefinido de parámetros** 
+
+ (para ocultar requiere una primer linea con .. ..    Los que queremos ocultar debe tener el menos un espacio)
 
  - Requiere:
 
