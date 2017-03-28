@@ -104,6 +104,10 @@ QGroupBox
 - Definir la clase Formulario que será un QWidget
 - Formulario tendrá QLabels y QLineEdits para Legajo, Nombre y Apellido y un QPushButton
 - Si la clave ingresada es admin:1111, se cierra Login y se muestra Formulario
+
+**Ejercicio:**
+
+.. figure:: images/clase04/ejercicio.jpg
 	
 Sutilezas con punteros
 ^^^^^^^^^^^^^^^^^^^^^^

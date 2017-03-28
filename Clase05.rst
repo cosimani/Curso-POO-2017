@@ -96,10 +96,6 @@ Macro Q_OBJECT
 
 - Tener en cuenta que este ejercicio requiere conocer cómo se define un slot propio.
 
-**Ejercicio:**
-
-.. figure:: images/clase04/ejercicio.jpg
-
 QGridLayout
 ^^^^^^^^^^^
 
