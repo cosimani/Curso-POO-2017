@@ -5,8 +5,6 @@
 Clase 07 - POO 2017
 ===================
 
-**Dato de color**
-
 **CamelCase**: Es escribir con la forma de jorobas de camello con las mayúsculas y minúsculas. 
 
 - UpperCamelCase: La primera letra de cada palabra es mayúscula. Ejemplo: EjemploDeUpperCamelCase.
