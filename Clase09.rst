@@ -171,7 +171,7 @@ Conexión a base de datos
 	- **ODBC (Open DataBase Connectivity)**: 
 		- Estándar de acceso a base de datos
 		- Usado con Microsoft Access en Windows
-		- Ya está disponible en Windows: Panel de control -> Herramientas administrativas -> ODBC Data sources
+		- Está disponible en Windows: Panel de control -> Herramientas administrativas -> ODBC Data sources
 			
 	- **SQLite**
 		- Es un sistema de gestión de bases de datos relacional.
@@ -404,8 +404,8 @@ Consulta a la base de datos
 
 **Ejercicio**
 
-- Diseñar una aplicación que para una galería de fotos
-- Debe tener una base con una tabla 'imagenes' que tengas las URLs de imágenes
+- Diseñar una aplicación para una galería de fotos
+- Debe tener una base con una tabla 'imagenes' que tenga las URLs de imágenes
 - Un botón >> y otro << para avanzar o retroceder en la galería de fotos
 - Se podrá navegar sobre las fotos que se descargarán desde internet
 
