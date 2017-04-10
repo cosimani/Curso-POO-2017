@@ -45,9 +45,9 @@ Clases derivadas
 	class Administrador : public Personal  {
 	public:
 	    Administrador()  {
-	    salario = 2000;
-	    edad = 30;
-	}
+	        salario = 2000;
+	        edad = 30;
+	    }
 	};
 
 	#include <QApplication>
