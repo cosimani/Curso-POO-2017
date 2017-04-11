@@ -114,7 +114,7 @@ Funciones virtuales
 		
 		
 		
-**Ejemplo**
+**Volviendo a base de datos**
 
 - Definir una clase AdminDB para administrar la base de datos
 - Crear el siguiente método:
