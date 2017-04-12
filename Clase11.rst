@@ -5,9 +5,74 @@
 Clase 11 - POO 2016 (No preparada aún)
 ===================
 
+**Ejemplo**: slot de la clase Login para que valide usuarios contra la base
+
+.. code-block:: c
+
+	void Login::slot_validar()  {
+	    bool usuarioValido = false;
+
+	    if (adminDB->getDB().isOpen())  {  
+	        QSqlQuery* query = new QSqlQuery(adminDB->getDB());
+
+	        query->exec("SELECT nombre, apellido FROM usuarios WHERE usuario='" + 
+	        leUsuario->text() + "' AND clave='" + leClave->text() + "'");
+
+	        // Si los datos son consistentes, devolverá un único registro.
+	        while (query->next())  {
+
+	            QSqlRecord record = query->record();
+
+	            // Obtenemos el número de la columna de los datos que necesitamos.
+	            int columnaNombre = record.indexOf("nombre");
+	            int columnaApellido = record.indexOf("apellido");
+
+	            // Obtenemos los valores de las columnas.
+	            qDebug() << "Nombre=" << query->value(columnaNombre).toString();
+	            qDebug() << "Apellido=" << query->value(columnaApellido).toString();
+
+	            usuarioValido = true;
+	        }
+
+	        if (usuarioValido)  {
+	            QMessageBox::information(this, "Conexión exitosa", "Válido");
+	        }
+	        else  {
+	            QMessageBox::critical(this, "Sin permisos", "Usuario inválido");
+	        }
+	    }
+	}
+
+**Ejercicio**
+
+- Diseñar una aplicación para una galería de fotos
+- Debe tener una base con una tabla 'imagenes' que tenga las URLs de imágenes
+- Un botón >> y otro << para avanzar o retroceder en la galería de fotos
+- Se podrá navegar sobre las fotos que se descargarán desde internet
 	
+		
 	
-	
+- Para independizar del SO
+
+.. code-block:: c
+
+	AdminDB adminDB;
+	QString nombreSqlite;
+
+	#ifdef __APPLE__
+	    nombreSqlite = "/home/cosimani/db/test";
+	#elif __WIN32__
+	    nombreSqlite = "C:/Qt/db/test";
+	#elif __linux__
+	    nombreSqlite = "/home/cosimani/db/test";
+	#else
+	    nombreSqlite = "/home/cosimani/db/test";
+	#endif
+
+	if (adminDB.conectar(nombreSqlite))
+	    qDebug() << "Conexion exitosa";
+
+		
 	
 	
 Ejercitación para primer parcial
