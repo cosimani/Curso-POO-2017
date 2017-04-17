@@ -2,7 +2,7 @@
 
 .. _rcs_subversion:
 
-Clase 11 - POO 2016 (No preparada aún)
+Clase 11 - POO 2017
 ===================
 
 **Ejemplo**: slot de la clase Login para que valide usuarios contra la base
@@ -50,9 +50,8 @@ Clase 11 - POO 2016 (No preparada aún)
 - Un botón >> y otro << para avanzar o retroceder en la galería de fotos
 - Se podrá navegar sobre las fotos que se descargarán desde internet
 	
-		
 	
-- Para independizar del SO
+**Para independizar del SO**
 
 .. code-block:: c
 
@@ -73,8 +72,6 @@ Clase 11 - POO 2016 (No preparada aún)
 	    qDebug() << "Conexion exitosa";
 
 		
-	
-	
 Ejercitación para primer parcial
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -86,7 +83,7 @@ Ejercitación para primer parcial
 - Instanciar objetos de estas clases.
 - Prestar atención sobre los punteros a objetos, ámbitos, parámetros en funciones, modificadores de acceso, ...
 
-**Ejercicio:** Aritmética de punteros.
+**Ejercicio:** Aritmética de punteros - Escribir la salida por consola
 
 .. code-block:: c
 
@@ -107,7 +104,6 @@ Ejercitación para primer parcial
 	    return 0;
 	}
 	
-- Escribir la salida por consola.
 
 **Ejercicio:** Comenzar un proyecto vacío con QtCreator y diseñar el siguiente login de usuarios:
  
@@ -133,68 +129,15 @@ Ejercitación para primer parcial
 	- Dibujar además un cuadrado que envuelva la imagen (como muestra el ejemplo).
 	- La ventana puede tener cualquier tamaño y llevará por título "Ventana".
 
-Métodos virtuales de QWidget para capturar eventos
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-- Algunos de ellos:
-
-.. code-block:: c
-
-	virtual void mouseDoubleClickEvent(QMouseEvent* event)
-	virtual void mouseMoveEvent(QMouseEvent* event)
-	virtual void mousePressEvent(QMouseEvent* event)
-	virtual void keyPressEvent(QKeyEvent* event)
-	virtual void resizeEvent(QResizeEvent* event)
-	virtual void moveEvent(QMoveEvent* event)
-	virtual void closeEvent(QCloseEvent* event)
-
-- Estos métodos pueden ser reimplementados en una clase derivada para recibir los eventos.
-
-**Ejercicio:** Al ingresar la URL de una imagen deberá mostrarla como en la figura
-
-.. figure:: images/clase10/imagenes.png  
- 
-- Al hacer clic sobre una de estas imágenes, deberá ocultarse la misma. 
-- Cuando se oculta la segunda imagen, cerrar la aplicación.
-
-Un par de memes para recordar que se viene el examen
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-.. figure:: images/clase10/meme1.jpg
+Un par de memes antes del examen
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. figure:: images/clase10/meme2.jpg
 
-.. figure:: images/clase10/meme3.jpg
-
 .. figure:: images/clase10/meme4.jpg
 
-.. figure:: images/clase10/meme5.jpg
 
 	
-Clase QWebView
-^^^^^^^^^^^^^^
 
-- Es un QWidget que tiene todas las características de un navegador
-- Dispone del método load() para cargar un sitio web
-- Requiere la inclusión del siguiente módulo 
-
-.. code-block:: c
-
-	QT += webkitwidgets
-
-**Ejercicio:** Diseñar la siguiente interfaz de usuario:
-
-.. figure:: images/clase09/descarga.png 
- 
-- Mostrar el código fuente del sitio en el QTextEdit
-- También incluir un QLabel para indicar el porcentaje de descarga
-
-**Ejercicio:** Navegador - Diseñar la siguiente interfaz de usuario:
-
-.. figure:: images/clase09/navegador.png 
-
-- Utilizar sólo 2 widgets: un QLineEdit y un QWebView (ningún QPushButton)
-- Por defecto se cargará la página de Google
-- Filtrar el acceso a los dominios terminados en: edu.ar y gov.ar
-- Cuando un sitio se haya filtrado mostrar el mensaje "Sitio bloqueado"
 
