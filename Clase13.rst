@@ -337,6 +337,74 @@ API de Google Street
 
 
 
+Uso de Qt Designer
+..................
+
+- Nuevo proyecto -> Qt GUI Application
+- Utilizar el puntero ``ui`` para acceder a los objetos del diseño
+- Tener en cuenta que los métodos virtuales de QWidget para eventos se pueden usar:
+
+.. code-block:: c	
+
+	virtual void mousePressEvent(QMouseEvent* event)
+	virtual void resizeEvent(QResizeEvent* event)
+	virtual void moveEvent(QMoveEvent* event)
+	...
+
+**Ejemplo**
+
+.. code-block:: c	
+	
+	// ventana.h
+	#ifndef VENTANA_H
+	#define VENTANA_H
+
+	#include <QWidget>
+
+	namespace Ui {
+	    class Ventana;
+	}
+
+	class Ventana : public QWidget  {
+	    Q_OBJECT
+
+	public:
+	    explicit Ventana(QWidget *parent = 0);
+	    ~Ventana();
+
+	private:
+	    Ui::Ventana *ui;
+	};
+
+	#endif // VENTANA_H
+
+.. code-block:: c
+
+	// ventana.cpp
+	#include "ventana.h"
+	#include "ui_ventana.h"
+
+	Ventana::Ventana(QWidget *parent) : QWidget(parent), ui(new Ui::Ventana)  {
+	    ui->setupUi(this);
+	}
+
+	Ventana::~Ventana()  {
+	    delete ui;
+	}
+
+**Ejercicio:**
+
+- Usar QtDesigner
+- Definir la clase Ventana que herede de QWidget
+- Buscar una imagen de un fútbol con formato PNG (para usar transparencias).
+- Ventana tendrá un formulario que pide al usuario:
+	- Diámetro del fútbol (píxeles):
+	- Velocidad (mseg para ir de lado a lado):
+	- QPushButton para actualizar el estado.
+- El fútbol irá golpeando de izquierda a derecha en Ventana.
+
+
+
 
 
 
