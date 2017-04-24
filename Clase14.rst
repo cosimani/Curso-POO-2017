@@ -26,44 +26,7 @@ Ejecutable del ejercicio de arrastrar y soltar la imagen
 
 - `Descargar MouseMove (Linux - 64 bits) <https://drive.google.com/file/d/0B3bNJFNPgLHnMGtzWjlQa3RIc1E/view?usp=sharing>`_
 
-API de Google Street
-^^^^^^^^^^^^^^^^^^^^
 
-- Permite descargar una vista
-- Puede utilizarse con una clave de API para la aplicación
-	- Acceder a https://code.google.com/apis/console y loguearse
-	- Administración de las API - Google Street View Image API
-	- Habilitar el servicio
-	- Credenciales - Crear credenciales - Clave de Servidor o Clave de navegador
-
-- Parámetros de la URL:
-	- https://developers.google.com/maps/documentation/streetview
-
-- Parámetros obligatorios
-	- size - Imagen en píxeles. Por ejemplo, ``size=600x400`` (máximo 640x640)
-	- location - Texto (universidad blas pascal) o lat./long. (40.457375,-80.009353)
-	- sensor - Si el dispositivo dispone de GPS "true" o "false"
-
-- Ejemplo: http://maps.googleapis.com/maps/api/streetview?size=400x400&location=donato%20alvarez%20380&sensor=false
-
-- Opcionales:
-	- heading - Rotación entre 0 y 360 (heading=45)
-	- fov (field of view) - zoom (aprox. entre 10 y 120 - valor predeterminado 90)
-	- pitch - Ángulo de inclinación (predeterminado 0 - entre -90 y 90)
-	- key: Clave de API (ver https://code.google.com/apis/console)
-
-**Ejercicio:**
-
-- Con la misma idea que la clase Mapa, hacer ahora la clase ``StreetView``. 
-- En un QLineEdit ingresar el domicilio a buscar.
-- Con sólo movimientos del mouse horizontales, girar la rotación entre 0 y 360.
-
-**Ejercicio:** Agregar a ``StreetView`` lo siguiente:
-
-- Agregar un QSlider para controlar el zoom.
-- Además del QSlider, controla el zoom con dobleclic derecho para aumentarlo y con el izquierdo para disminuirlo.
-- Actualizar también la posición del QSlider luego de los dobleclics.
-- Almacenar todas las direcciones buscadas en la tabla ``logs`` de la base de datos
 
 Uso de Qt Designer
 ..................
@@ -131,6 +94,34 @@ Uso de Qt Designer
 	- QPushButton para actualizar el estado.
 - El fútbol irá golpeando de izquierda a derecha en Ventana.
 
+
+
+Clase QWebView
+^^^^^^^^^^^^^^
+
+- Es un QWidget que tiene todas las características de un navegador
+- Dispone del método load() para cargar un sitio web
+- Requiere la inclusión del siguiente módulo 
+
+.. code-block:: c
+
+	QT += webkitwidgets
+
+**Ejercicio:** Diseñar la siguiente interfaz de usuario:
+
+.. figure:: images/clase09/descarga.png 
+ 
+- Mostrar el código fuente del sitio en el QTextEdit
+- También incluir un QLabel para indicar el porcentaje de descarga
+
+**Ejercicio:** Navegador - Diseñar la siguiente interfaz de usuario:
+
+.. figure:: images/clase09/navegador.png 
+
+- Utilizar sólo 2 widgets: un QLineEdit y un QWebView (ningún QPushButton)
+- Por defecto se cargará la página de Google
+- Filtrar el acceso a los dominios terminados en: edu.ar y gov.ar
+- Cuando un sitio se haya filtrado mostrar el mensaje "Sitio bloqueado"
 
 
 
