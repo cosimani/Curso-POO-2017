@@ -346,9 +346,9 @@ Uso de Qt Designer
 
 .. code-block:: c	
 
-	virtual void mousePressEvent(QMouseEvent* event)
-	virtual void resizeEvent(QResizeEvent* event)
-	virtual void moveEvent(QMoveEvent* event)
+	virtual void mousePressEvent(QMouseEvent* event);
+	virtual void resizeEvent(QResizeEvent* event);
+	virtual void moveEvent(QMoveEvent* event);
 	...
 
 **Ejemplo**
