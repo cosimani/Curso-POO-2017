@@ -2,8 +2,14 @@
 
 .. _rcs_subversion:
 
-Clase 14 - POO 2016 (No preparada aún)
+Clase 14 - POO 2017
 ===================
+
+:Tarea para Clase 15:
+	Ver `Tutorial Qt QWidget <https://www.youtube.com/watch?v=NpwRtpndqA4>`_ de `Videos tutoriales de Qt <https://www.youtube.com/playlist?list=PL54fdmMKYUJvn4dAvziRopztp47tBRNum>`_
+
+	Repasar todo lo que está en GitHub desde la clase 01 hasta la 14
+
 
 Función virtual pura y clase abstracta
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -211,11 +217,6 @@ Uso de Qt Designer
 - Cuando se oculta la segunda imagen, cerrar la aplicación.
 
 
-
-
-
-
-
 Creando Instalador
 ^^^^^^^^^^^^^^^^^^
 
@@ -237,39 +238,6 @@ Ejecutable del ejercicio de arrastrar y soltar la imagen
 
 - `Descargar MouseMove (Linux - 64 bits) <https://drive.google.com/file/d/0B3bNJFNPgLHnMGtzWjlQa3RIc1E/view?usp=sharing>`_
 
-
-
-
-
-
-
-
-Clase QWebView
-^^^^^^^^^^^^^^
-
-- Es un QWidget que tiene todas las características de un navegador
-- Dispone del método load() para cargar un sitio web
-- Requiere la inclusión del siguiente módulo 
-
-.. code-block:: c
-
-	QT += webkitwidgets
-
-**Ejercicio:** Diseñar la siguiente interfaz de usuario:
-
-.. figure:: images/clase09/descarga.png 
- 
-- Mostrar el código fuente del sitio en el QTextEdit
-- También incluir un QLabel para indicar el porcentaje de descarga
-
-**Ejercicio:** Navegador - Diseñar la siguiente interfaz de usuario:
-
-.. figure:: images/clase09/navegador.png 
-
-- Utilizar sólo 2 widgets: un QLineEdit y un QWebView (ningún QPushButton)
-- Por defecto se cargará la página de Google
-- Filtrar el acceso a los dominios terminados en: edu.ar y gov.ar
-- Cuando un sitio se haya filtrado mostrar el mensaje "Sitio bloqueado"
 
 
 
