@@ -60,44 +60,53 @@ Clase QFile
 	- QPushButton para actualizar el estado.
 - El fútbol irá golpeando de izquierda a derecha en Ventana.
 
-Uso de una clase propia con QtDesigner
-======================================
 
-- Deben heredar de algún QWidget
-- Colocamos el widget (clase base) con QtDesigner
-- Clic derecho "Promote to"
 
-.. figure:: images/clase18/qtdesigner.png
-					 
-- Base class name: QLabel
-- Promoted class name: MiLabel
-- Header file: miLabel.h
-- Add (y con esto queda disponible para promover)
-- La clase MiLabel deberá heredar de QLabel
-- El constructor debe tener como parámetro:
 
-.. code-block::
+Clase QWebView
+^^^^^^^^^^^^^^
 
-	MiLabel(QWidget *parent = 0);  // Esto en miLabel.h
+- Es un QWidget que tiene todas las características de un navegador
+- Dispone del método load() para cargar un sitio web
+- Requiere la inclusión del siguiente módulo 
 
-	MiLabel::MiLabel(QWidget *parent) : QLabel(parent)  {  // Esto en miLabel.cpp
-	
-	}
+.. code-block:: c
 
-**Ejercicio:**
-	- Definir la clase TuLabel que herede de QLabel
-	- Agregar un QLabel a la GUI y promoverlo a TuLabel
-	- Agregar un método void cambiarTexto(QString nuevoTexto)
-	- Usar ese método desde la clase Principal de la siguiente forma:
+	QT += webkitwidgets
 
-.. code-block::
+**Ejercicio:** Diseñar la siguiente interfaz de usuario:
 
-	ui->tuLabel->cambiarTexto("Sos un TuLabel?");
-	
-**Ejercicio:** 
+.. figure:: images/clase09/descarga.png 
+ 
+- Mostrar el código fuente del sitio en el QTextEdit
+- También incluir un QLabel para indicar el porcentaje de descarga
 
-- Crear un login con la clase TuLabel que herede de QLabel y que funcione como un QPushButton
-- Para esto incorporar a TuLabel la señal ``void signal_clic()``
+**Ejercicio:** Navegador - Diseñar la siguiente interfaz de usuario:
+
+.. figure:: images/clase09/navegador.png 
+
+- Utilizar sólo 2 widgets: un QLineEdit y un QWebView (ningún QPushButton)
+- Por defecto se cargará la página de Google
+- Filtrar el acceso a los dominios terminados en: edu.ar y gov.ar
+- Cuando un sitio se haya filtrado mostrar el mensaje "Sitio bloqueado"
+
+
+.. figure:: images/clase16/imagenes-para-reirse-en-los-examenes.jpg
+
+****
+
+.. figure:: images/clase16/yeah.gif
+
+****
+
+Aplicación para replicar en Primer Parcial
+..........................................
+
+Usuario válido: cgomez:123456
+
+- `Ejecutable (Windows 7 o superior - 64 bits) <https://drive.google.com/file/d/0B3bNJFNPgLHnTVd6SGl2cERReWc/view?usp=sharing>`_
+
+- `Ejecutable (Linux - 64 bits) <https://drive.google.com/file/d/0B3bNJFNPgLHneUhiQmNjTFdldkU/view?usp=sharing>`_
 
 
 
