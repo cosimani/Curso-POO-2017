@@ -5,6 +5,10 @@
 Clase 16 - POO 2017
 ===================
 
+:Tarea para Clase 18:
+	Traer el ejercicio de la Clase 15 en un ejecutable.
+	Enviarlo por mail antes de las 13 horas del día 15 de mayo
+
 const
 .....
 
