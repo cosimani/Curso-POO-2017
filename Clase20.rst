@@ -5,91 +5,55 @@
 Clase 20 - POO 2016 (No preparada aún)
 ===================
 
-Rotación de la escena
-^^^^^^^^^^^^^^^^^^^^^
 
-- Gira un ángulo en sentido contrario a las agujas del reloj.
-- Sobre el eje formado desde el origen hasta el punto (x, y, z).
+Clase QWebView
+^^^^^^^^^^^^^^
 
-.. code-block:: c
-
-	// glRotatef(angulo, x, y, z); 
-	glRotatef(5, 0, 0, 1);  // gira 5° con respecto al eje z
-
-Traslación de la escena
-^^^^^^^^^^^^^^^^^^^^^^^
-
-- Desplaza el punto (0, 0, 0) a la nueva posición (x, y, z).
+- Es un QWidget que tiene todas las características de un navegador
+- Dispone del método load() para cargar un sitio web
+- Requiere la inclusión del siguiente módulo 
 
 .. code-block:: c
 
-	// glTranslatef(x, y, z);
-	glTranslatef(2, 0, 0);  // Desplaza 2 unidades en el eje x
+	QT += webkitwidgets
 
-Escalado de la escena
-^^^^^^^^^^^^^^^^^^^^^
+**Ejercicio:** Diseñar la siguiente interfaz de usuario:
 
-- Escala. Con valores mayores a 1, se amplía. Entre 0 y 1 se reduce.
+.. figure:: images/clase09/descarga.png 
+ 
+- Mostrar el código fuente del sitio en el QTextEdit
+- También incluir un QLabel para indicar el porcentaje de descarga
 
-.. code-block:: c
+**Ejercicio:** Navegador - Diseñar la siguiente interfaz de usuario:
 
-	// glScalef(x, y, z);
-	glScalef(1, 2, 1);  // escala el doble en vertical
-	
-	
-Objetos ocultos
-^^^^^^^^^^^^^^^
+.. figure:: images/clase09/navegador.png 
 
-- En 3D un objeto puede estar detrás de otro.
-- Por defecto, OpenGL no tiene en cuenta esto. Pinta siguiendo el orden en el código fuente,.
-- El siguiente código no se vería muy real:
+- Utilizar sólo 2 widgets: un QLineEdit y un QWebView (ningún QPushButton)
+- Por defecto se cargará la página de Google
+- Filtrar el acceso a los dominios terminados en: edu.ar y gov.ar
+- Cuando un sitio se haya filtrado mostrar el mensaje "Sitio bloqueado"
 
-.. code-block:: c
 
-	glColor3f(0, 1, 0);
-	glBegin(GL_TRIANGLES);
-	    glVertex3f(-5, -5, 5);
-	    glVertex3f(0, 0, 0);
-	    glVertex3f(5, -5, 5);
-	glEnd();
+.. figure:: images/clase16/imagenes-para-reirse-en-los-examenes.jpg
 
-	glColor3f(0, 0, 1);
-	glPointSize(5);
-	glBegin(GL_POINTS);
-	    glVertex3f(0, -1, 0);
-	    glVertex3f(0, -2, 5);
-	glEnd();
+****
 
-- Para solucionar activamos el buffer de profundidad
+.. figure:: images/clase16/yeah.gif
 
-.. code-block:: c
+****
 
-	glEnable(GL_DEPTH_TEST); 
+Aplicación para replicar en Primer Parcial
+..........................................
 
-- Cada vez que se renderiza la escena, limpiamos la pantalla
+Usuario válido: cgomez:123456
 
-.. code-block:: c
+- `Ejecutable (Windows 7 o superior - 64 bits) <https://drive.google.com/file/d/0B3bNJFNPgLHnTVd6SGl2cERReWc/view?usp=sharing>`_
 
-	glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+- `Ejecutable (Linux - 64 bits) <https://drive.google.com/file/d/0B3bNJFNPgLHneUhiQmNjTFdldkU/view?usp=sharing>`_
 
-Seguimiento continuo del mouse
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-- Al usar ``mouseMoveEvent`` ¿por qué sólo se sigue al mouse al presionar un botón?
 
-.. code-block:: c
 
-	setMouseTracking(bool enable)
-
-- Es un método de la clase QWidget
-- Activa el seguimiento continuo del mouse sobre un QWidget.
-- Por defecto se encuentra desactivado.
-- Cuando está desactivado sólo se reciben los eventos del movimiento del mouse cuando al menos se presiona un botón del mismo.
-
-**Ejercicio:**
-
-- Dibujar un cajón deforme sin tapa con un color distinto en cada lado.
-- Utilizar el teclado para hacerlo rotar sobre los tres ejes.
 
 MiniExámenes
 ============
