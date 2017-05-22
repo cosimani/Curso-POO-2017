@@ -12,7 +12,7 @@ Clase 20 - POO 2017
 
 	Ver `Tutorial Qt Resource file <https://www.youtube.com/watch?v=u8xKE0zHLsE>`_ de `Videos tutoriales de Qt <https://www.youtube.com/playlist?list=PL54fdmMKYUJvn4dAvziRopztp47tBRNum>`_	
 
-	Repasar todo lo que está en GitHub sobre OpenGL
+	Repasar todo lo que está en GitHub sobre OpenGL hasta la clase 19
 
 Modelo de sombreado
 ^^^^^^^^^^^^^^^^^^^
