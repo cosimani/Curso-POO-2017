@@ -5,7 +5,9 @@
 Clase 20 - POO 2017
 ===================
 
-<div style="text-align: right"> your-text-here </div>
+->This is text-align:center<-
+
+->This is text-align:center
 
 Trabajo en proyectos
 ^^^^^^^^^^^^^^^^^^^^
