@@ -2,12 +2,8 @@
 
 .. _rcs_subversion:
 
-Clase 20 - POO 2017
+Clase 20 - POO 2017 *fdsfsdfsd*
 ===================
-
-->This is text-align:center<-
-
-->This is text-align:center
 
 Trabajo en proyectos
 ^^^^^^^^^^^^^^^^^^^^
