@@ -5,8 +5,7 @@
 Clase 20 - POO 2017
 ===================
 
-:Date: 2001-08-16
-	:align: right
+<div style="text-align: right"> your-text-here </div>
 
 Trabajo en proyectos
 ^^^^^^^^^^^^^^^^^^^^
