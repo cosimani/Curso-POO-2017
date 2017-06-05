@@ -322,9 +322,7 @@ donde:
 
 .. figure:: images/clase23/caja.bmp
 
-include .special.rst
-And then each role can be used easily:
+.. role:: red
 
-This is :red:`red !` And :blue:`this part is blue`.
-
+An example of using :red:`interpreted text`
 
