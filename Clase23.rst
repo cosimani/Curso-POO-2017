@@ -324,7 +324,7 @@ donde:
 
 .. raw:: html
 
-    <font color="blue">Blue word,</font>
+	<font color="blue">Blue word,</font>
 
 And a word without color
 
