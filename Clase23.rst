@@ -315,16 +315,12 @@ donde:
 
 .. figure:: images/clase23/escena.png
 
-**Ejercicio 3:**
+**Ejercicio:**
 
-- Usar el ejercicio anterior
-- Colgar de la tapia del fondo un monitor LCD mostrando las imágenes de la cámara
+- En el ejercicio anterior colocar en el medio del escenario un cubo girando
+- Pegar la siguiente textura en cada lado del cubo
 
-**Ejercicio 4:**
-
-- En el medio del escenario tapia-piso-cielo dibujar un cubo girando
-- Pegar la textura de la cámara en cada lado del cubo
-
+.. figure:: images/clase23/caja.bmp
 
 
 
