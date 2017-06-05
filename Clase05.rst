@@ -87,8 +87,8 @@ Macro Q_OBJECT
 - Una clase Qt permitirá trabajar con signals y slots.
 - Con la macro Q_OBJECT en la declaración de la clase la convertimos.
 
-**Ejercicio 4**
-^^^^^^^^^^^^^^^
+Ejercicio 4
+^^^^^^^^^^^
 
 - Construir un login.
 - Usar asteriscos para la clave.
