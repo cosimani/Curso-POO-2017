@@ -322,12 +322,9 @@ donde:
 
 .. figure:: images/clase23/caja.bmp
 
-.. raw:: html
+include .special.rst
+And then each role can be used easily:
 
-	<font color="blue">Blue word,</font>
-
-And a word without color
-
-
+This is :red:`red !` And :blue:`this part is blue`.
 
 
