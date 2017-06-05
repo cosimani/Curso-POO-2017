@@ -292,7 +292,7 @@ donde:
 	    glTexImage2D(GL_TEXTURE_2D, 0, 3, im.width(), im.height(), 0, GL_RGBA, GL_UNSIGNED_BYTE, textura);
 	}
 
-**Ejercicio:**
+**Ejercicio 37**
 
 - Crear una aplicación para mostrar una escena 3D con OpenGL que tenga las siguientes características:
 	- Utilizar la clase Ogl
@@ -315,7 +315,7 @@ donde:
 
 .. figure:: images/clase23/escena.png
 
-**Ejercicio:**
+**Ejercicio 38**
 
 - En el ejercicio anterior colocar en el medio del escenario un cubo girando
 - Pegar la siguiente textura en cada lado del cubo

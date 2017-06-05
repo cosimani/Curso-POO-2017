@@ -150,7 +150,7 @@ Uso de Qt Designer
 	    delete ui;
 	}
 
-**Ejercicio:**
+**Ejercicio 14**
 
 - Usar QtDesigner
 - Definir la clase Ventana que herede de QWidget

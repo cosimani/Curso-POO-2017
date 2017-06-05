@@ -98,14 +98,14 @@ QGroupBox
 	
 	grupo->setLayout(layout);
 
-**Ejercicio:**
+**Ejercicio 5**
 
 - Utilizar el login del ejercicio anterior en un proyecto nuevo.
 - Definir la clase Formulario que será un QWidget
 - Formulario tendrá QLabels y QLineEdits para Legajo, Nombre y Apellido y un QPushButton
 - Si la clave ingresada es admin:1111, se cierra Login y se muestra Formulario
 
-**Ejercicio:**
+**Ejercicio 6**
 
 .. figure:: images/clase04/ejercicio.jpg
 	
@@ -255,7 +255,7 @@ QTextEdit
 - Interpreta tags HTML
 - Seteamos texto con setPlainText()
 
-**Ejercicio:**
+**Ejercicio 7**
 
 - Crear una aplicación que inicie con un login validando el usuario admin:123
 - Luego de ingresar el usuario válido, mostrar un nuevo QWidget con las siguientes características:

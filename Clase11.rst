@@ -43,7 +43,7 @@ Clase 11 - POO 2017
 	    }
 	}
 
-**Ejercicio**
+**Ejercicio 10**
 
 - Diseñar una aplicación para una galería de fotos
 - Debe tener una base con una tabla 'imagenes' que tenga las URLs de imágenes
@@ -75,7 +75,9 @@ Clase 11 - POO 2017
 Ejercitación para primer parcial
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-**Ejercicio:** Definir la siguiente jerarquía de clases:
+**Ejercicio 11** 
+
+- Definir la siguiente jerarquía de clases:
  
 .. figure:: images/clase10/clases.png 
 
@@ -105,7 +107,9 @@ Ejercitación para primer parcial
 	}
 	
 
-**Ejercicio:** Comenzar un proyecto vacío con QtCreator y diseñar el siguiente login de usuarios:
+**Ejercicio 12**
+
+- Comenzar un proyecto vacío con QtCreator y diseñar el siguiente login de usuarios:
  
 .. figure:: images/clase10/login.png  
 

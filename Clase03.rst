@@ -69,7 +69,6 @@ Cadena de caracteres
 	Puntero a char		const char *c = s1.c_str()
 
 **Ejercicio 2**
-^^^^^^^^^^^^^^^
 
 - Crear un vector de 100 números enteros.
 - Los valores serán aleatorios y positivos menores o iguales a 10.

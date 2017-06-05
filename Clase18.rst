@@ -36,19 +36,19 @@ Clase QFile
 	    qDebug() << linea;
 	}
 
-**Ejercicio:**
+**Ejercicio 25**
 
 - Elegir un archivo de texto cualquiera con ``QFileDialog`` y mostrarlo sobre un ``QTextEdit``.
 - Agregar dos ``QLineEdit``, uno acompañado con el ``QLabel`` "Buscar" y otro con el "Reemplazar por".
 - Un botón "Reemplazar" realizará la busqueda reemplazará todas las coincidencias encontradas.
 
-**Ejercicio:**
+**Ejercicio 26**
 
 - En el ejercicio anterior emitir la señal ``signal_reemplazosFinalizados(int cantidad)`` al finalizar la acción.
 - ``int cantidad`` indicará la cantidad de reemplazos realizados, incluyendo el cero si no hubo reemplazos.
 - Conectar esta señal con algún slot cualquiera para probar su funcionamiento.
 
-**Ejercicio:**
+**Ejercicio 27**
 
 - Usar QtDesigner
 - Definir la clase Ventana que herede de QWidget
@@ -114,8 +114,9 @@ Herencia múltiple
 	    return 0;
 	}
 
-**Ejercicio:** Crear una clase base llamada Instrumento y las clases derivadas Guitarra, Bateria y Teclado.  
+**Ejercicio 28** 
 
+- Crear una clase base llamada Instrumento y las clases derivadas Guitarra, Bateria y Teclado.  
 - La clase base tiene una función virtual pura llamada ``sonar()``. 
 - Defina una función virtual ``verlo()`` que publique la marca del instrumento. Por defecto todos los instrumentos son de la marca Yamaha. 
 - Utilice en la función ``main()`` un ``std::vector`` para almacenar punteros a objetos del tipo Instrumento. Instancie 5 objetos y agréguelos al ``std::vector``.
@@ -125,8 +126,9 @@ Herencia múltiple
 - Al llamar a la función ``sonar()``, se deberá publicar "Guitarra suena...", "Teclado suena..." o "Batería suena..." según corresponda.
 - Incluya los métodos ``get`` y ``set`` que crea convenientes.
 
-**Ejercicio:** Definir dos QWidgets (una clase Login y una clase Ventana).
+**Ejercicio 29** 
 
+- Definir dos QWidgets (una clase Login y una clase Ventana).
 - El Login validará al usuario contra una base SQLite
 - La ventana Ventana sólo mostrará un QPushButton para "Volver" al login.
 - Crear solamente un objeto de Ventana y uno solo de Login.

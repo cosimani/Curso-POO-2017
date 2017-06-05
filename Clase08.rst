@@ -109,8 +109,9 @@ Obtener una imagen desde internet
 	    QImage image = QImage::fromData(reply->readAll());
 	}
 
-**Ejercicio:** Hacer una aplicación para buscar una dirección en Google Maps
+**Ejercicio 8** 
 
+- Hacer una aplicación para buscar una dirección en Google Maps
 - Definir la clase Mapa. Será el QWidget donde se dibujará el mapa de google.
 - Definir la clase Ventana para contener al layout.
 - Ese layout tendrá:

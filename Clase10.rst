@@ -111,9 +111,7 @@ Funciones virtuales
 	    return a.exec();
 	}
 
-		
-		
-		
+
 **Volviendo a base de datos**
 
 - Definir una clase AdminDB para administrar la base de datos
@@ -199,7 +197,9 @@ Consulta a la base de datos
 	    }
 	}
 
-**Ejercicio**: Crear el siguiente método dentro de la clase AdminDB:
+**Ejercicio 9**
+
+- Crear el siguiente método dentro de la clase AdminDB:
 
 .. code-block:: c	
 	

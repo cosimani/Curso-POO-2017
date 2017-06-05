@@ -108,7 +108,7 @@ Registrar eventos (logs)
 	    return query.exec("INSERT INTO logs (evento) VALUES ('" + log + "')");
 	}
 
-**Ejercicio**
+**Ejercicio 13**
 
 - Diseñar una aplicación con un login inicial que valide contra la base
 - Almacenar sólo el hash en MD5 de las contraseñas

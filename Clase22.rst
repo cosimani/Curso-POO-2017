@@ -220,7 +220,7 @@ Levantar base de datos a QTableView
 	    tableModelAlumnos->revertAll();
 	}
 
-**Ejercicio**
+**Ejercicio 36**
 
 - Hacerlo funcionar mostrando la tabla usuarios y su relación con tabla carreras
 - Tabla alumnos: id, legajo, nombre, apellido, mail, id_carrera

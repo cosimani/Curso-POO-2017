@@ -104,7 +104,7 @@ Modelo de sombreado
 	// Posiblemente también requiera incluir el archivo de cabecera:
 	#include <GL/glu.h>
 
-**Ejercicio:**
+**Ejercicio 32**
 
 - Dibujar un triángulo dentro del campo de visión de la escena.
 - Active un temporizador (100 ms) para que gire 3° el triángulo sobre el eje z.	
@@ -122,7 +122,7 @@ Modelo de sombreado
 				   
 .. figure:: images/clase22/lookat.png		
 
-**Ejercicio:**
+**Ejercicio 33**
 
 - Marcar 4 puntos en la escena donde se haga clic con el mouse.
 - Ni bien se marque el 4to, automáticamente se generará el polígono de 4 vértices.
@@ -130,13 +130,13 @@ Modelo de sombreado
 - Con A y D se rota sobre el eje Y.
 - Con W y S se rota sobre el eje X.
 
-**Ejercicio:**
+**Ejercicio 34**
 
 - Dibujar un cuadrado cualquiera en el plano z=-2.
 - Controlar la posición de la cámara con las teclas.
 - La cámara siempre vertical y mirando al punto (0, 0, -100).
 
-**Ejercicio:**
+**Ejercicio 35**
 
 - Dibujar una ruta con la línea blanca interrumpida.
 - Con las teclas Up y Down acelerar y frenar

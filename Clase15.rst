@@ -35,7 +35,7 @@ Enumeraciones
 	    d1.un_dia = Dia::LUN;
 	}
 
-**Ejercicio:**
+**Ejercicio 15**
  
 .. figure:: images/clase15/ejercicio.jpg 
 

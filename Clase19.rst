@@ -75,7 +75,7 @@ Uso de la Clase QGLWidget
 	    glFlush();
 	}
 
-**Ejercicio:**
+**Ejercicio 30**
 
 - Dibujar un triángulo en el plano ``z=-50``
 - Utilizar el teclado para que al presionar la tecla C, el triángulo cambie de color.
@@ -160,7 +160,7 @@ Seguimiento continuo del mouse
 - Por defecto se encuentra desactivado.
 - Cuando está desactivado sólo se reciben los eventos del movimiento del mouse cuando al menos se presiona un botón del mismo.
 
-**Ejercicio:**
+**Ejercicio 31**
 
 - Dibujar un cajón deforme sin tapa con un color distinto en cada lado.
 - Utilizar el teclado para hacerlo rotar sobre los tres ejes.

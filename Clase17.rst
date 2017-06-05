@@ -15,13 +15,13 @@ Clase QFileDialog
 
 	QString file = QFileDialog::getOpenFileName(this, "Abrir", "./", "Imagen (*.png *.jpg)");
 
-**Ejercicio:**
+**Ejercicio 18**
 
 - Elegir un archivo de imagen del disco con ``QFileDialog`` y dibujarlo en un ``QWidget``.
 - Agregar un botón "Iniciar rotación" que genere la rotación de la imagen sobre su centro.
 
 
-**Ejercicio:** Al ingresar la URL de una imagen deberá mostrarla como en la figura
+**Ejercicio 19** Al ingresar la URL de una imagen deberá mostrarla como en la figura
 
 .. figure:: images/clase10/imagenes.png  
  
@@ -44,7 +44,7 @@ Creando Instalador
 .. figure:: images/clase14/CrearInstalador.gif
 
 
-**Ejercicio:**
+**Ejercicio 20**
 
 - Diseñar una aplicación que muestre en un ``QWidget`` cualquier imagen de 50x50
 - La imagen deberá seguir al puntero del mouse cuando esté presionado un botón.
@@ -79,12 +79,12 @@ Señales propias
 - Las signals deben ser compatibles en sus parámetros con los slots a los cuales se conecten.
 - Solamente se declara esta función (Qt se encarga de definirla).
 
-**Ejercicio:** 
+**Ejercicio 21** 
 
 - Crear un login con un QLabel que funcione como un QPushButton
 - Para esto incorporar al QLabel la señal ``void signal_clic()``
 
-**Ejercicio:** 
+**Ejercicio 22** 
 
 - Incorporar a un Login una señal que se emita cada vez que un usuario se valide exitosamente
 - Que la señal se llame ``void signal_usuarioLogueado(QString)``
@@ -114,7 +114,7 @@ Uso de una clase propia con QtDesigner
 	
 	}
 
-**Ejercicio:**
+**Ejercicio 23**
 	- Definir la clase TuLabel que herede de QLabel
 	- Agregar un QLabel a la GUI y promoverlo a TuLabel
 	- Agregar un método void cambiarTexto(QString nuevoTexto)
@@ -124,7 +124,7 @@ Uso de una clase propia con QtDesigner
 
 	ui->tuLabel->cambiarTexto("Sos un TuLabel?");
 	
-**Ejercicio:** 
+**Ejercicio 24** 
 
 - Crear un login con la clase TuLabel que herede de QLabel y que funcione como un QPushButton
 - Para esto incorporar a TuLabel la señal ``void signal_clic()``
