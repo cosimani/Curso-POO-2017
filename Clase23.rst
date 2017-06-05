@@ -313,7 +313,7 @@ donde:
 	
 - Utilizando las teclas UP y DOWN generar el efecto de avanzar y retroceder. Que no permita irse más allá del muro y que no permita retroceder más del punto inicial de partida.
 
-.. figure:: images/clase11/escena.png
+.. figure:: images/clase23/escena.png
 
 **Ejercicio 3:**
 
