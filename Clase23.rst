@@ -322,7 +322,6 @@ donde:
 
 .. figure:: images/clase23/caja.bmp
 
-.. role:: red
+.. raw:: html
 
-An example of using :red:`interpreted text`
-
+		<style> .red {color:red} </style>
