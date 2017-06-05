@@ -322,41 +322,13 @@ donde:
 
 .. figure:: images/clase23/caja.bmp
 
-.. start-badges
+Before blue.
 
-	- |waffle| |travis| |coveralls| |scrutinizer| |landscape| |gemnasium|
+.. role:: bluetext
 
-.. |gitter| image:: https://img.shields.io/gitter/room/colour-science/colour.svg
-    :target: https://gitter.im/colour-science/colour/
-    :alt: Gitter
-.. |waffle| image:: https://badge.waffle.io/colour-science/colour.svg?label=ready&title=Ready
-    :target: https://github.com/colour-science/colour/issues
-    :alt: Issues Ready
-.. |travis| image:: https://img.shields.io/travis/colour-science/colour/develop.svg
-    :target: https://travis-ci.org/colour-science/colour
-    :alt: Develop Build Status
-.. |coveralls| image:: http://img.shields.io/coveralls/colour-science/colour/develop.svg
-    :target: https://coveralls.io/r/colour-science/colour
-    :alt: Coverage Status
-.. |scrutinizer| image:: https://img.shields.io/scrutinizer/g/colour-science/colour/develop.svg
-    :target: https://scrutinizer-ci.com/g/colour-science/colour/
-    :alt: Code Quality
-.. |landscape| image:: https://landscape.io/github/colour-science/colour/master/landscape.png
-    :target: https://landscape.io/github/colour-science/colour
-    :alt: Code Quality
-.. |gemnasium| image:: https://img.shields.io/gemnasium/colour-science/colour.svg
-    :target: https://gemnasium.com/colour-science/colour
-    :alt: Dependencies Status
-.. |version| image:: https://badge.fury.io/py/colour-science.svg
-    :target: https://pypi.python.org/pypi/colour-science
-    :alt: Package Version
-.. |zenodo| image:: https://zenodo.org/badge/doi/10.5281/zenodo.376790.png
-    :target: http://dx.doi.org/10.5281/zenodo.376790
-    :alt: DOI
+I like color :bluetext:`blue`.
 
-.. end-badges
-
-	
+After blue.
 
 
 
