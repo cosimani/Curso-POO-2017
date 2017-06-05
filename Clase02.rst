@@ -223,6 +223,7 @@ Función Genérica
 	cout <<
 
 **Ejercicio 1**
+^^^^^^^^^^^^^^^
 
 - Escribir en C++ una función genérica para ordenar e imprimir un array (sólo tipos int, float y char). Que la publicación sea ordenada utilizando el método de ordenamiento por inserción.
 

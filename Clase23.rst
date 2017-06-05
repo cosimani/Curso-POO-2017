@@ -322,6 +322,3 @@ donde:
 
 .. figure:: images/clase23/caja.bmp
 
-.. raw:: html
-
-		<style> .red {color:red} </style>
