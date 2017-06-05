@@ -31,7 +31,7 @@ Texturas
 
 - Cuando le pasamos la textura a OpenGL, éste nos devolverá un identificador.
 - Cada textura tendrá un identificador propio.
-- Cómo obtenemos ese identificador? Creamos una variable para almacenarlo:
+- ¿Cómo obtenemos ese identificador? Creamos una variable para almacenarlo:
 
 .. code-block:: c++
 
@@ -118,7 +118,6 @@ donde:
 	glEnd ();
 
 - Aplicando textura sería:
-
 
 .. code-block:: c++
 	glEnable(GL_TEXTURE_2D);	// Activamos la texturización
@@ -293,106 +292,23 @@ donde:
 	    glTexImage2D(GL_TEXTURE_2D, 0, 3, im.width(), im.height(), 0, GL_RGBA, GL_UNSIGNED_BYTE, textura);
 	}
 
-**Ejercicio:** 
-
-- Caminando por la ruta. 
-- Buscar una imagen de una ruta para texturizar un plano horizontal.
-- Con las teclas UP y DOWN realizar el efecto como si estuviéramos desplazándonos sobre la ruta.
- 
-**Podemos ahora llevar las imágenes de la cámara como textura a OpenGL**
-
-.. code-block:: c++
-
-	class Visual : public Ogl  {
-		Q_OBJECT
-	public:
-		Visual();
-		void iniciarCamara();
-
-	protected:
-		void initializeGL();
-		void resizeGL(int ancho, int alto);
-		void paintGL();
-
-	private:
-		Capturador * capturador;
-		QCamera * camera;
-
-		void cargarTexturas();
-		void cargarTexturaCamara();
-
-		unsigned char *texturaCielo;
-		unsigned char *texturaMuro;
-		GLuint idTextura[2];
-
-		unsigned char *texturaCamara;
-		GLuint idTexturaCamara[1];
-	};
-
-	void Visual::iniciarCamara()  {
-		capturador = new Capturador;
-
-		QList<QCameraInfo> cameras = QCameraInfo::availableCameras();
-
-		for (int i=0 ; i<cameras.size() ; i++)  {
-			qDebug() << cameras.at(i).description();
-
-			if (cameras.at(i).description().contains("Truevision", Qt::CaseInsensitive))  {
-				camera = new QCamera(cameras.at(i));
-				camera->setViewfinder(capturador);
-				camera->start(); // to start the viewfinder
-			}
-		}
-
-		glGenTextures(1, idTexturaCamara);
-	}
-
-	void Visual::cargarTexturaCamara()  {
-
-		QVideoFrame frameActual = capturador->getFrameActual();
-		texturaCamara = frameActual.bits();
-
-		glBindTexture(GL_TEXTURE_2D, idTexturaCamara[0]);  // Activamos idTextura.
-		glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR); 
-		glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR); 
-
-		glTexImage2D(GL_TEXTURE_2D, 
-		             0, 
-		             3, 
-		             frameActual.width(), 
-		             frameActual.height(), 
-		             0, 
-		             GL_BGRA, 
-		             GL_UNSIGNED_BYTE, 
-		             texturaCamara);
-	}
-
-**Ejercicio 1:**
-
-- Crear una escena con OpenGL con glOrtho para mostrar como textura las imágenes de la cámara en un QUADS.
-- Luego probar con gluPerspective
-
-**Resolución**
-
-:Código fuente: https://github.com/cosimani/Curso-PGE-2015/tree/master/sources/clase11/ejercicio1
-	
-**Ejercicio 2:**
+**Ejercicio:**
 
 - Crear una aplicación para mostrar una escena 3D con OpenGL que tenga las siguientes características:
 	- Utilizar la clase Ogl
 	- La escena tendrá un cielo como se muestra a continuación:
 
-.. figure:: images/clase11/cielo.jpg
+.. figure:: images/clase23/cielo.jpg
 	:target: http://img02.bibliocad.com/biblioteca/image/00010000/4000/cieloclaro_14054.jpg
 
 - Ahora agregar una textura para el piso. Esta textura deberá repetirse para que quede similar a la siguiente figura:
 
-.. figure:: images/clase11/tierra.jpg
+.. figure:: images/clase23/tierra.jpg
 	:target: http://www.textureimages.net/uploads/6/1/2/6/6126732/8772372_orig.jpg
 
 - Dibujar ahora un muro al final del camino. Que la textura se repita también. 
 
-.. figure:: images/clase11/pared.jpg
+.. figure:: images/clase23/pared.jpg
 	:target: http://img02.bibliocad.com/biblioteca/image/00030000/0000/muropiedratextura_30115.jpg
 	
 - Utilizando las teclas UP y DOWN generar el efecto de avanzar y retroceder. Que no permita irse más allá del muro y que no permita retroceder más del punto inicial de partida.
