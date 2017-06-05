@@ -324,17 +324,7 @@ donde:
 
 .. start-badges
 
-.. list-table::
-    :stub-columns: 1
-
-    * - Social
-      - |gitter|
-    * - Status
-      - |waffle| |travis| |coveralls| |scrutinizer| |landscape| |gemnasium|
-    * - Package
-      - |version|
-    * - Citation
-      - |zenodo|
+	- |waffle| |travis| |coveralls| |scrutinizer| |landscape| |gemnasium|
 
 .. |gitter| image:: https://img.shields.io/gitter/room/colour-science/colour.svg
     :target: https://gitter.im/colour-science/colour/
