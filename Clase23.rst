@@ -322,14 +322,11 @@ donde:
 
 .. figure:: images/clase23/caja.bmp
 
-Before blue.
+.. raw:: html
 
-.. role:: bluetext
+    <font color="blue">Blue word,</font>
 
-I like color :bluetext:`blue`.
-
-After blue.
-
+And a word without color
 
 
 
