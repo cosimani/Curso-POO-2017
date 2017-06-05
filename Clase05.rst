@@ -41,7 +41,8 @@ Clase 05 - POO 2017
 	    return a.exec();
 	}
 
-**Ejercicio:**
+**Ejercicio 3**
+^^^^^^^^^^^^^^^
 
 - Cuando el valor del QSlider se modifique, colocar como título de la ventana el mismo valor (de 0 a 100). 
 	
@@ -86,7 +87,8 @@ Macro Q_OBJECT
 - Una clase Qt permitirá trabajar con signals y slots.
 - Con la macro Q_OBJECT en la declaración de la clase la convertimos.
 
-**Ejercicio:**
+**Ejercicio 4**
+^^^^^^^^^^^^^^^
 
 - Construir un login.
 - Usar asteriscos para la clave.
